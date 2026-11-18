@@ -3,3 +3,9 @@
 
 1. Defensive Security : defensive mean, the developer keeps into mind where the system can be hacked and tries to protect the attack.
 2. Offensive Security : The hacker attacks the vulnerable system to check how weak is the sytem. 
+
+Attention in Transformers: 
+   - Scaled dot product Attention: So every token has 3 parts: Query, Key and value. So this query is what we ask -> it is matched 
+      with the every other token's key. Now these keys are scored. These scores are weighted in such a way that they sum up to 1. 
+      Then it takes the weighted mix of the values of these keys. 
+      This is called scaled dot product attention. 
